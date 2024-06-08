@@ -1,6 +1,6 @@
 body {
  background-color: hsl(60, 56%, 91%);
- 
+ background-image: linear-gradient(to bottom, hsl(60, 56%, 91%) 0%, #ff99cc 100%);
  background-repeat: no-repeat;
  background-size: cover;
  font-family: "Playfair Display", serif;
