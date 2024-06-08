@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simphiwe Ngwenya</title>
+<!-- Apple Touch Icon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+<!-- Favicon for browsers -->
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<!-- Manifest file for PWA (Progressive Web App) -->
+<link rel="manifest" href="/images/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <header class="header" id="introduction">
+  <h1 class="title" id="name">🌹Simphiwe Ngwenya🌹</h1>
+  <p class="subheading" id="subhead">Open whenever you are bored</p>
+ </header>
+
+ <div class="slideshow">
+  <div class="slide">Love starts as a feeling</div>
+
+<div class="slide">but to continue is a choice; and I find myself choosing you more and more every day.</div>
+
+  <div class="slide">I love you not because of who you are</div>
+
+  <div class="slide">but because of who I am when I am <b>with</b> you.</div>
+
+  <div class="slide">My Heart races at the thought of you. I think I am <em>addicted</em> to you.</div>
+
+ </div>
+  
+ <button id="btn" class="btn_click" onclick="startSlideshow()">
+   <span>Click Me!</span>
+ </button>
+
+ <div class="heart"></div>
+<script defer src="script.js"></script> 
+</body>
+</html>
